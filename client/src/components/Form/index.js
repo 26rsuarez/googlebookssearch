@@ -4,7 +4,7 @@ import React from "react";
 
 export function Input(props) {
   return (
-    <div className="form-group">
+    <div className="form-group" style={{marginTop: 20, marginLeft: 20}}>
       <input className="form-control" {...props} />
     </div>
   );
@@ -20,7 +20,7 @@ export function Input(props) {
 
 export function FormBtn(props) {
   return (
-    <button {...props} style={{ float: "right", marginBottom: 10 }} className="btn btn-success">
+    <button {...props} style={{ float: "right", marginBottom: 20, marginTop: 20 }} className="btn btn-success">
       {props.children}
     </button>
   );

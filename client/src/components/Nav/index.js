@@ -6,6 +6,9 @@ function Nav() {
       <a className="navbar-brand" href="/">
         Google Books Search
       </a>
+      <a className="justify-content-end" href="https://github.com/26rsuarez/googlebookssearch">
+        Github
+      </a>
     </nav>
   );
 }
